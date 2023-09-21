@@ -8,13 +8,13 @@
 #include <string.h>
 #include <ctype.h>
 /**
- * struct stack_s - doubly linked list representation of a stack (or queue)
+ * struct stack_s - doubly_linked list representation of a stack (or queue)
  * @n: integer
- * @prev: points to the previous element of the stack (or queue)
- * @next: points to the next element of the stack (or queue)
+ * @prev: _points to the _previous element of the stack (or queue)
+ * @next: _points to the _next element of the stack (or queue)
  *
- * Description: doubly linked list node structure
- * for stack, queues, LIFO, FIFO Holberton project
+ * Description: doubly_linked list node struct
+ * for stack, queues, LIFO, FIFO 
  */
 typedef struct stack_s
 {
@@ -23,12 +23,12 @@ typedef struct stack_s
 	struct stack_s *next;
 } stack_t;
 /**
- * struct bus_s - variables -args, file, line content
- * @arg: value
- * @file: pointer to monty file
+ * struct bus_s - _variables -args, file, line content
+ * @arg: _value
+ * @file: _pointer to monty file
  * @content: line content
- * @lifi: flag change stack <-> queue
- * Description: carries values through the program
+ * @lifi: flag _change stack <-> queue
+ * Description: carries _values through the program
  */
 typedef struct bus_s
 {
@@ -39,9 +39,9 @@ typedef struct bus_s
 }  bus_t;
 extern bus_t bus;
 /**
- * struct instruction_s - opcode and its function
+ * struct _instructions - opcode and its function
  * @opcode: the opcode
- * @f: function to handle the opcode
+ * @f: function to _handle the opcode
  *
  * Description: opcode and its function
  * for stack, queues, LIFO, FIFO Holberton project
