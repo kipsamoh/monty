@@ -1,23 +1,23 @@
 #include "monty.h"
 /**
- * f_push - add node to the stack
- * @head: stack head
- * @counter: line_number
+ * f_push - _add node to the _stack
+ * @head: _stack head
+ * @counter: _line_number
  * Return: no return
 */
 void f_push(stack_t **head, unsigned int counter)
 {
-	int n, j = 0, flag = 0;
+	int n, y = 0, _flag = 0;
 
 	if (bus.arg)
 	{
 		if (bus.arg[0] == '-')
-			j++;
-		for (; bus.arg[j] != '\0'; j++)
+			y++;
+		for (; bus.arg[y] != '\0'; y++)
 		{
-			if (bus.arg[j] > 57 || bus.arg[j] < 48)
-				flag = 1; }
-		if (flag == 1)
+			if (bus.arg[y] > 57 || bus.arg[y] < 48)
+				_flag = 1; }
+		if (_flag == 1)
 		{ fprintf(stderr, "L%d: usage: push integer\n", counter);
 			fclose(bus.file);
 			free(bus.content);
