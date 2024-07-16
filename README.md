@@ -4,11 +4,11 @@ The push opcode
 
 The opcode push pushes an element to the stack.
 
-Usage: push <int>
+Usage: push
 
-where <int> is an integer
+where is an integer
 
-if <int> is not an integer or if there is no argument given to push, print the error message L<line_number>: usage: push integer, followed by a new line, and exit with the status EXIT_FAILURE
+if is not an integer or if there is no argument given to push, print the error message L<line_number>: usage: push integer, followed by a new line, and exit with the status EXIT_FAILURE
 
 where is the line number in the file
 
@@ -340,7 +340,10 @@ Example (file.m):
 
 $ cat file.m
 
-# Pushing element to the stack
+Pushing element to the stack
+============================
+
+[](https://github.com/kipsamoh/monty#pushing-element-to-the-stack)
 
 push 0
 
@@ -348,7 +351,10 @@ push 1
 
 push 2
 
-# Printing all elements
+Printing all elements
+=====================
+
+[](https://github.com/kipsamoh/monty#printing-all-elements)
 
 pall
 
@@ -358,7 +364,10 @@ push 4
 
 pop
 
-# Rotating the stack to the bottom
+Rotating the stack to the bottom
+================================
+
+[](https://github.com/kipsamoh/monty#rotating-the-stack-to-the-bottom)
 
 rotr
 
@@ -366,13 +375,19 @@ pall
 
 rotl
 
-# Setting FIFO
+Setting FIFO
+============
+
+[](https://github.com/kipsamoh/monty#setting-fifo)
 
 queue
 
 push 5
 
-# Setting LIFO
+Setting LIFO
+============
+
+[](https://github.com/kipsamoh/monty#setting-lifo)
 
 stack
 
